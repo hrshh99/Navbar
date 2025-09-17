@@ -1,5 +1,10 @@
 body {
     margin: 0;
+      /* display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: wheat; */
 }
 
 .top-container {
@@ -10,13 +15,52 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} 
+
 
 .top-container h1 {
     color: #ccc;
     font-size: 50px;
     letter-spacing: 2px;
 }
+
+/* .slider-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn.prev {
+  left: 10px;
+}
+
+.btn.next {
+  right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+} */
 
 .text {
     margin: 50px 5%;
@@ -30,7 +74,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    /* transition: background-color 0.4s; */
+    transition: background-color 0.4s;
 }
 
 .navbar ul {
